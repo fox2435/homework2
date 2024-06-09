@@ -1,0 +1,27 @@
+.container {
+  
+        display: flex;
+        justify-content: flex-start; /* Выравниваем содержимое по левому краю */
+        align-items: flex-end; /* Выравниваем содержимое по нижнему краю */
+        height: 200px;
+        border: 1px solid #ccc;
+        position: relative;
+      
+  }
+
+  .box {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 15px 15px 0px 0px;
+    width: 150px;
+    height: 100px;
+    background-color: #905eec;
+    color: white;
+    transform-origin: bottom; 
+    transition: transform 0.5s ease; 
+  }
+
+  .box:hover {
+    transform: scaleY(1.5); /* Увеличиваем высоту */
+  }
